@@ -1,0 +1,434 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+}
+body input:required:valid,
+body textarea:required:valid {
+}
+.hidden {
+	display: none;
+}
+
+/* font families */
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+
+/*  */
+/*  */
+/*  */
+
+body {
+	min-width: 320px;
+	position: relative;
+}
+
+/* header rules */
+
+header {
+	min-height: 70px;
+	position: relative;
+	margin: 0;
+}
+
+.header-line {
+	min-height: 70px;
+	width: 100%;
+	background-color: rgb(50,50,50);
+	font-family: "Lato";
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.navigation {
+	display: inline-block;
+  height: 70px;
+  min-width: 77px;
+  line-height: 70px;
+  transition: all 0.40s;
+  text-align: center;
+}
+
+.navigation-link{
+	display: inline-block;
+  transition: all 0.40s;
+  color: #fff;
+}
+
+.navigation-link:hover{
+	color: rgb(46,179,152);
+} 
+
+.navigation:hover {
+	background-color: rgb(76,76,76);
+}
+
+/* logo rules */
+
+.logo_wrap{
+  position: relative;
+  margin: auto;
+  width: 64px;
+  /* rotation */
+  transition-duration: 1s;
+	transition-property: transform;
+	overflow: hidden;
+}
+
+.logo_wrap:hover {
+	/* logo rotation hover */
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg) ;
+	-o-transform: rotate(360deg);
+}
+
+.logo_wrap img{
+	margin-top: 15px;
+}
+
+.logo_wrap img:hover{
+	margin-top: 15px;
+	transform: scale(1.1);
+}
+
+/* Triangle from header */
+
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-top: 25px solid rgb(50,50,50);
+	margin: auto;
+	margin-top: -730px;
+}
+
+/* Main section */
+
+#main_section{
+	background-color: #fff;
+	min-height: 730px;
+	margin-bottom: -14px;
+}
+
+div.portfolio_row1{
+	margin-top: 40px;
+}
+
+.portfolio_row_1_left{
+	text-align: right;
+	margin-left: 3px;
+}
+
+.portfolio_row_1_right{
+	text-align: right;
+	margin-left: -24px;
+}
+
+div.portfolio_row2{
+	margin-top: -42px;
+}
+
+div.portfolio_row3{
+	margin-top: -46px;
+}
+
+.portfolio_row_3_left{
+	text-align: right;
+	margin-left: 3px;
+}
+
+.portfolio_row_3_right{
+	text-align: right;
+	margin-left: -24px;
+}
+
+div.image_block{
+	display: inline-block;
+	margin-left: 14px;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+div.image_block img{
+	display: inline-block;
+	width: 213px;
+	opacity: 0.8;
+}
+
+div.image_block img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+div.image_block:hover{
+    -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+div.image1{
+	margin-left: 0;
+}
+
+
+
+
+/* About me section rules */
+
+.about_me{
+	background-color: rgb(46,179,152);
+	min-height: 340px;
+	margin-top: 705px;
+}
+
+.about_me .photo img{
+	width: 180px;
+	margin-top: 68px;
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.about_me .photo a{
+background-image: url(img/face-img.png);
+}
+
+.about_me .photo a{
+	background-image: url(img/face-image);
+}
+
+.about_me h1{
+	font-family: "Maven Pro";
+	color: #fff;
+	font-size: 30px;
+	padding-top: 40px;
+	margin-bottom: 0;
+}
+
+.about_me h2{
+	font-family: "Maven Pro";
+	color: #000;
+	font-size: 18px;
+	margin-top: 0;}
+
+.about_me p{
+	font-family: "Lato";
+	color: #ccc;
+	font-size: 13px;
+	margin-top: 0;
+	line-height: 23px;
+	text-align: justify;}
+
+.social_media{
+	text-align: end;
+}
+
+.social_media img{
+	border: 2px solid transparent;
+}
+
+.social_media img:hover{
+	border: 2px solid rgba(255,255,255, 0.7);
+}
+
+/* Contacts section rules */
+
+.contacts{
+	background-color: rgb(50,50,50);
+	min-height: 550px;
+	margin: 0;
+}
+
+.text-block h2{
+	color: #fff;
+	margin-top: 67px;
+	font-family: "Maven Pro";
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+.text-block p{
+	color: #fff;
+	font-family: "Maven Pro";
+	color: rgba(255,255,255,0.7);
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+/* form section rules */
+
+.login{
+   margin: 10px -10px;
+}
+
+input {
+	border: none;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1em;
+	padding: 0;
+	color: #fff;
+}
+
+fieldset {
+    border: 0px solid #c0c0c0;
+    margin: 0 -15px;
+    padding: 0;
+}
+
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+	width: 700px;
+	margin-left: 40px;
+}
+
+.clearfix:after { clear: both; }
+
+#login {
+	width: 700px;
+	margin-right: -40px
+}
+
+#login form span {
+	background-color: rgb(69,50,69);
+	border-radius: 1px;
+	color: #fff;
+	display: block;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 40px;
+}
+
+#login form .fontawesome-user-4 {
+	height: 150px
+}
+
+#login form input {
+	height: 40px;
+	outline:none;
+}
+
+#login form input[type="text"] {
+	background-color: rgb(69,69,69);
+	border-radius: 1px;
+	color: rgba(255,255,255,0.7);
+	margin-bottom: 10px;
+	padding: 0 10px;
+	width: 580px;
+}
+
+#login #text{
+	height: 150px;
+	text-align: start;
+}
+
+#login form input:focus {
+	color:#fff;
+	background-color: rgba(69,50,69, 0.3)
+}
+
+#login form input[type="submit"] {
+	border-radius: 2px;
+	background-color: rgb(46,179,152);
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+	width: 95px;
+	margin-left: 525px;
+}
+
+#login form input[type="submit"]:hover {
+	background-color: rgb(69,50,69);
+}
+
+/* location rules */
+
+.location{
+	color: #fff;
+	width: 260px;
+	text-align: justify;
+	margin-top: 170px;
+	font-family: "Lato";
+	font-size: 14px;
+}
+
+.location span{
+	font-weight: 700;
+}
+
+.location p.cont{
+	padding-left: 40px;
+}
+
+.location i{
+	float: left;
+	color: #fff;
+}
+
+.location i:hover{
+	color: rgb(46,179,152);
+}
+
+.address{
+	height: 40px;
+	line-height: 40px
+}
+
+.phone{
+	height: 40px;
+	line-height: 40px
+}
+
+.mail{
+	height: 40px;
+	line-height: 40px
+}
+
+
+/* copyright */
+
+.copyright{
+	min-height: 40px;
+	width: 100%;
+	background-color: rgb(34, 34, 34);
+	font-family: "Maven Pro";
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: -14px;
+}
+
+.copyright p{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 40px;
+	margin-bottom: 0;
+}
+
+
